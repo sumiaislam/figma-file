@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    width: 100%;
+    background: #F0FFF0;
+    padding-bottom: 30px;
+
+}
+
+
+header .wrepper{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .wrepper .logo{
+    padding-top: 30px;
+    
+}
+
+header .wrepper .menu-box{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header .wrepper .menu-box .menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 30px;
+    
+
+}
+
+header .wrepper .menu-box .menu ul li a{
+    text-decoration: none;
+}
+
+header .wrepper .menu-box button{
+    padding: 12px 18px;
+    background-color: rgba(76, 206, 184, 0.829);
+    border-radius: 33px;
+    font-size: 18px;
+    margin-top: 20px;
+    
+
+}
+
+header .wrepper .menu-box button a{
+    color: white;
+
+}
+
+header .benner{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .benner .left-box{
+
+}
+
+
+header .benner .left-box h4{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #FD511A;
+    margin-top: 30px;
+
+    
+}
+
+header .benner .left-box h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    width: 67%;
+    color: #000000;
+
+}
+
+
+header .benner .left-box h1 span{
+    color: #21B573;
+}
+
+header .benner .left-box p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    width: 67%;
+    line-height: 30px;
+
+}
+
+
+section{
+    width: 100%;
+    
+}
+
+
+section .four-box{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    /* background-color: red; */
+    padding: 40px 30px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    text-align: center;
+    
+
+
+}
+
+
+section .four-box h1{
+    font-weight: 300;
+    font-size: 24px;
+    color: #413960;
+    margin-bottom: 10px;
+    
+
+
+}
+
+section .four-box p{
+    margin-top: 10px;
+}
+
+section .four-box .box-1{
+    padding: 30px 40px;
+    background-color: #F8FFFB;
+}
+
+
+
+
+section .four-box .box-2{
+    padding: 30px 40px;
+    background-color: #F8FFFB;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+section .four-box .box-3{
+    padding: 30px 40px;
+    background-color: #F8FFFB;
+}
+
+
+section .four-box .box-4{
+    padding: 30px 40px;
+    background-color: #F8FFFB;
+}
+
+
+section .title-1 h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 60px;
+    color: #413960;
+
+}
+
+
+section .three-box{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    
+
+
+}
+
+
+section .three-box .box-one{
+    margin: 10px;
+    background-color: #FFFFFF;
+    
+
+
+}
+
+
+section .three-box .box-two{
+    margin: 10px;
+    background-color: #FFFFFF;
+}
+
+
+section .three-box .box-three{
+    margin: 10px;
+    background-color: #FFFFFF;
+}
+
+section .three-box h2{
+    margin-top: 10px;
+    color: #413960;
+}
+
+section .three-box p{
+    margin-top: 10px;
+    color: #585859;
+}
+
+section .three-box button{
+    background-color: #21B573;
+    margin-top: 15px;
+    padding: 8px 10px;
+    border-radius: 20px;
+}
+
+section .three-box button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+section .three-box .two-icon{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+section .three-box .two-icon .box-1{
+    display: flex;
+
+}
+
+section .three-box .two-icon .box-2{
+    display: flex;
+}
+
+section .title-2 h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 500;
+    font-size: 30px;
+    margin-top: 40px;
+
+
+}
+
+section .presentetion-box{
+    width: 40%;
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+section .presentetion-box .box-2 p{
+    width: 72%;
+    margin-left: 80px;
+    font-size: 15px;
+
+}
+
+section .list-box{
+    display: flex;
+    background-color: #282531;
+    margin-top: 80px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    padding: 60px;
+
+}
+
+section .list-box .box-1 p{
+    width: 55%;
+    margin-left: 100px;
+}
+
+section .list-box .box-2 p{
+    width: 30%;
+}
+
+section .list-box .box-3 p{
+    width: 30%;
+}
+
+section .list-box .box-4 p{
+    width: 30%;
+}
